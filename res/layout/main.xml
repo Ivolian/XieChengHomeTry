@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="8dp"
+              android:background="#cccccc"
+              android:gravity="center_horizontal">
+
+    <!--左侧一列-->
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="0dp" android:layout_weight="1"
+                  android:layout_marginRight="4dp"
+                  android:orientation="vertical">
+
+        <!--酒店-->
+        <LinearLayout android:id="@+id/llBuilding"
+                      android:layout_width="match_parent"
+                      android:layout_height="240dp"
+                      android:orientation="vertical"
+                      android:background="@drawable/building"
+                      android:gravity="center_horizontal">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="酒店"
+                      android:textSize="18dp"
+                      android:layout_marginTop="12dp"/>
+
+            <lib.FaIconView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fa-building"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="100dp"
+                            android:shadowColor="@android:color/holo_red_dark"
+                            android:shadowDx="4"
+                            android:shadowDy="4"
+                            android:shadowRadius="20"
+                            android:layout_marginTop="40dp"/>
+
+        </LinearLayout>
+
+        <!--机票-->
+        <LinearLayout android:id="@+id/llPlane"
+                      android:layout_width="match_parent"
+                      android:layout_height="130dp"
+                      android:orientation="vertical"
+                      android:background="@drawable/plane"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="8dp">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="机票"
+                      android:textSize="18dp"
+                      android:layout_marginTop="12dp"/>
+
+            <lib.FaIconView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fa-plane"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="60dp"
+                            android:shadowColor="@android:color/holo_blue_dark"
+                            android:shadowDx="4"
+                            android:shadowDy="4"
+                            android:shadowRadius="20"
+                            android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <!--旗子-->
+        <LinearLayout android:id="@+id/llFlag"
+                      android:layout_width="match_parent"
+                      android:layout_height="130dp"
+                      android:orientation="vertical"
+                      android:background="@drawable/flag"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="8dp">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="旅游团"
+                      android:textSize="18dp"
+                      android:layout_marginTop="12dp"/>
+
+            <lib.FaIconView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fa-flag"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="60dp"
+                            android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--右侧一列-->
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="0dp" android:layout_weight="1"
+                  android:layout_marginLeft="4dp"
+                  android:orientation="vertical">
+
+        <!--用车-->
+        <LinearLayout android:id="@+id/llCar"
+                      android:layout_width="match_parent"
+                      android:layout_height="130dp"
+                      android:orientation="vertical"
+                      android:background="@drawable/car"
+                      android:gravity="center_horizontal">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="用车"
+                      android:textSize="18dp"
+                      android:layout_marginTop="12dp"/>
+
+            <lib.FaIconView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fa-car"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="60dp"
+                            android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <!--团购-->
+        <LinearLayout android:id="@+id/llTags"
+                      android:layout_width="match_parent"
+                      android:layout_height="130dp"
+                      android:orientation="vertical"
+                      android:background="@drawable/tags"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="8dp">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="团购"
+                      android:textSize="18dp"
+                      android:layout_marginTop="12dp"/>
+
+            <lib.FaIconView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fa-tags"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="60dp"
+                            android:shadowColor="@android:color/holo_orange_dark"
+                            android:shadowDx="4"
+                            android:shadowDy="4"
+                            android:shadowRadius="20"
+                            android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <!--卖伞-->
+        <LinearLayout android:id="@+id/llUmbrella"
+                      android:layout_width="match_parent"
+                      android:layout_height="240dp"
+                      android:orientation="vertical"
+                      android:background="@drawable/umbrella"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="8dp">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="卖伞"
+                      android:textSize="18dp"
+                      android:layout_marginTop="12dp"/>
+
+            <lib.FaIconView android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fa-umbrella"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="100dp"
+                            android:shadowColor="@android:color/holo_green_dark"
+                            android:shadowDx="4"
+                            android:shadowDy="4"
+                            android:shadowRadius="20"
+                            android:layout_marginTop="40dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
